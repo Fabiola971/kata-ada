@@ -121,8 +121,6 @@ header{
 
 }
 
-
-
 /* ---------- TODO 3 — Le morceau en cours ---------- */
 .en-cours{
   display: flex;
@@ -148,9 +146,17 @@ header{
   flex-grow: 1;
 }
 
-
-
 /* ---------- TODO 5 — La barre de contrôle ---------- */
+.barre{
+  width: 80%;
+}
+
+.boutons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80%;
+}
 
 
 
